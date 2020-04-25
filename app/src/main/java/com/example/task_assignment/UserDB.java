@@ -133,6 +133,9 @@ public class UserDB extends SQLiteOpenHelper {
             String Query = "select " + COL_4 + " from " + TABLE_NAME + " where " + COL_3+ " = " + email;
             System.out.println("qquueerryy"+Query);
             res = db.rawQuery(Query, null);
+
+            System.out.println("qquueerryy"+res);
+
         }catch (Exception e){
 
         }
