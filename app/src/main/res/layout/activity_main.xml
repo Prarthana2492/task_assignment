@@ -99,6 +99,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:hint="Password"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+
                 android:inputType="textPassword"
                 android:maxLength="12"
                 android:paddingHorizontal="15dp"
